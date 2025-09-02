@@ -1,6 +1,6 @@
 
 var saturnImage = document.querySelector("img");
-saturnImage.onmouseover = function () {
+saturnImage.onmouseup = function () {
   var modal = document.getElementById("myModal");
   modal.style.display = "block";
 };
