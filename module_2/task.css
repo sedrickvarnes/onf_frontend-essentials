@@ -1,14 +1,22 @@
 .header {
   background-color: #f4f4f4;
   padding: 20px;
-  text-align: center;
+  text-align: center;;
 }
+.nav {
+  display: flex;
+  justify-content: space-between;
+  
+}
+
 .nav a {
-  margin: 0 15px;
   text-decoration: none;
   color: rgb(19, 20, 22);
-  background-color: rgba(184, 199, 202, 0.322);
-  ;
+  background-color: rgba(209, 219, 221, 0.322);
+  margin: 8px 40px 0;
+  border-radius: 4px;
+  text-align: center;
+  font-size: 24px;
 }
 .content {
   padding: 20px;
@@ -18,7 +26,6 @@
   color: white;
   text-align: center;
   padding: 10px;
-  position: fixed;
   width: 100%;
   bottom: 0;
 }
@@ -59,4 +66,8 @@
 img {
   width: 600px;
   height: 400px;
+}
+
+main {
+  text-align: center;
 }
