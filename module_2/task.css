@@ -48,7 +48,7 @@
   margin: 5% auto;
   padding: 20px;
   border: 1px solid #888;
-  width: 80%;
+  width: 40%;
 }
 .close {
   color: #aaa;
@@ -76,4 +76,25 @@ ol {
   text-align: center;
   margin: 0 auto;
   display: inline-block;
+}
+li{
+  margin: 10px 0;
+  font-size: 20px;
+}
+
+#subMail {
+  padding: 10px;
+  margin-top: 20px;
+  width: 40%;
+  
+}
+#subSubscribe {
+  padding: 10px 20px;
+  color: rgb(109, 109, 101);
+  border: none;
+  cursor: pointer;
+  size: 10px;
+}
+p {
+  font-size: 18px;
 }
