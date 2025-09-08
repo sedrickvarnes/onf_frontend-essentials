@@ -13,4 +13,7 @@ css:
 
 
 js:
-* a new const openMOdualBtn and a function 
+* a new const openMOdualBtn and a function ¨
+
+i added a github repositiry you can see here: 
+https://github.com/sedrickvarnes/onf_frontend-essentials/tree/d7bd2751665c5c2372ad4dcfc66f8625b9c2665b/module_2
