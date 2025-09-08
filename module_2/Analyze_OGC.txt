@@ -1,0 +1,16 @@
+i did not know a task was analyzing the website first thing, so i started refactoring it as the first thing i did, i got hold of the OG(original) version and looked at that.
+
+html:
+* it needs a <head> with the meta, title and link to the css shoud also have a charset.
+* instead of a div with cass header i switched it to a header to get the proper semantics elemen, the class be the same 
+* i changed from a div element to a nav element  
+* added a main element with articals insted of 1000 div's within the main it is not div's  but artical. 
+
+css:
+* added a nav class css to style the buttons 
+* deleted content img and puttet a styling for the img as img
+* from line 67 to 100 or last of element element:focus and down is new written code
+
+
+js:
+* a new const openMOdualBtn and a function 
