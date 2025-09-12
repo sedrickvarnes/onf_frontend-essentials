@@ -37,7 +37,7 @@ main {
 }
 
 #start {
-    height: 1512px;
+    height: 850px;
     width: 100%;
     background-image: url("img/fjell.png");
     background-size: cover;
@@ -45,14 +45,31 @@ main {
     background-position: center;
     
     
+    
 }
 
 #start h2 {
-    color: black;
+    color: rgb(255, 255, 255);
     font-size: 200px;
     font: Frank Ruhl Libre;
     margin: 0;
     padding-top: 100px;
-    padding-left: 100px;
-    padding-left: calc(50% - 300px);
+    text-align: center;
+    }
+
+#start p {
+    color: rgb(255, 255, 255);
+    font-size: 36px;
+    margin: 0;
+    padding-top: 20px;
+    text-align: center;
+}
+
+#start svg {
+    height: 150px;
+    width: 200px;
+    fill: rgb(255, 255, 255);
+    margin-top: 20px;
+    margin-left: calc(50%);
+    
 }
