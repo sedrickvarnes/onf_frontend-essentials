@@ -95,6 +95,11 @@ li{
   cursor: pointer;
   size: 10px;
 }
+
+#subSubscribe:hover {
+  background-color: limegreen;
+}
+
 p {
   font-size: 18px;
 }
