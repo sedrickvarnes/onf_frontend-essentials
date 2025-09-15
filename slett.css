@@ -1,0 +1,40 @@
+.nav {
+  display: flex;
+  justify-content: space-between;
+  max-width: 650px; 
+  margin: 0 auto;
+}
+.nav-link{
+    display: flex;
+    justify-content: space-between;
+    width: 20%;
+}
+.one_link {
+    margin-left: 20px;
+    justify-content: space-between;
+}
+li{
+   display: flex;  
+}
+ul{
+  margin: auto;
+}
+.header {
+  text-align: center;
+}
+.footer{
+  text-align: center;
+}
+
+.main {
+  text-align: center;
+  
+}
+
+form {
+    margin: 20px 1px;
+}
+
+label {
+    margin-left: 10px;
+}
