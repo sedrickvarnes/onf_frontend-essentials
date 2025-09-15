@@ -57,15 +57,7 @@ main {
     text-align: center;
     }
 
-#start p {
-    color: rgb(255, 255, 255);
-    font-size: 36px;
-    margin: 0;
-    padding-top: 20px;
-    text-align: center;
-}
-
-#start svg {
+    #start svg {
     height: 150px;
     width: 200px;
     fill: rgb(255, 255, 255);
@@ -73,3 +65,13 @@ main {
     margin-left: calc(50%);
     
 }
+
+#start p {
+    color: rgb(255, 255, 255);
+    font-size: 36px;
+    margin: 0;
+    padding-top: 20px;
+    text-align: center;
+
+}
+
