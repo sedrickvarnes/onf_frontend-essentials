@@ -4,11 +4,15 @@
   max-width: 650px; 
   margin: 0 auto;
 }
+nav button:hover{
+    background-color: rgb(159, 187, 184); 
+}
 .nav-link{
     display: flex;
     justify-content: space-between;
     width: 20%;
 }
+
 .one_link {
     margin-left: 20px;
     justify-content: space-between;
@@ -37,4 +41,7 @@ form {
 
 label {
     margin-left: 10px;
+   
 }
+
+
