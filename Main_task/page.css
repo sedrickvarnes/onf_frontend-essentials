@@ -57,12 +57,12 @@ main {
     text-align: center;
     }
 
-    #start svg {
-    height: 150px;
-    width: 200px;
-    fill: rgb(255, 255, 255);
-    margin-top: 20px;
-    margin-left: calc(50%);
+#start svg {
+height: 150px;
+width: 200px;
+fill: rgb(255, 255, 255);
+margin-top: 20px;
+margin-left: calc(50%);
     
 }
 
@@ -102,10 +102,10 @@ main {
 
 #section_break {
     background-color: white;
-    width:2px;   
+    width:1px;   
     height: 430px;          
-    background:#333;    
-    margin:0 15px;      
+    background:#333;
+    margin: 0;   
 } 
 .red_btn {
     height: 44px;
@@ -116,5 +116,26 @@ main {
     color: white;
     border: none;
     border-radius: 8px;
-    margin-top: 20px;
+}
+
+.how_it_works {
+    margin-top: 100px;
+    background-color: #F7F2DE;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    border-top: 2px solid gray;
+}
+
+.how_it_works .left {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 24px;
+    border-right: 2px solid gray;
+}
+
+.step{
+    padding-left: 5px;
+    border-bottom: 2px solid gray;
 }
