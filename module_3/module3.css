@@ -1,0 +1,59 @@
+.nav {
+  display: flex;
+  justify-content: space-between;
+  max-width: 650px; 
+  margin: 0 auto;
+}
+.nav-link{
+    display: flex;
+    justify-content: space-between;
+    width: 40%;
+}
+nav button:hover{
+    background-color: rgb(159, 187, 184); 
+}
+.one_link {
+    margin-left: 20px;
+    justify-content: space-between;
+}
+li{
+   display: flex;  
+}
+ul{
+  margin: auto;
+}
+.header {
+  text-align: center;
+}
+.footer{
+  text-align: center;
+}
+
+.main {
+  text-align: center;
+}
+
+label {
+    margin-left: 10px;
+    margin-bottom: 20px;
+}
+
+form {
+    margin-bottom: 20px
+}
+
+h4{
+  font-size: 1.5em;
+}
+
+#nav_div{
+    border-style: dashed;
+    padding: 15px 5px;
+    color: green;
+    margin-top: 3em;
+   
+}
+form:hover {
+    color: green;
+}
+
