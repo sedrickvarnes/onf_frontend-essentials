@@ -1,0 +1,18 @@
+i wrote a journal in a different place i was looking for it, i think it was sometinhg i turned in, but here is one in the project
+
+26.9.25
+still struggeling to the the font to work for the page, the selectiob breaker i was struggeling a bit becasue the line was from the top that is good and stopped 20 px from the bottom 
+it was a padding i had i diddent remember, selection was new to me but not a problem considering it is a selection of the div's, i have not found out yet how the text on the
+products will be, in figma the product and the price is on one line, i now have it on 2 lines 
+
+the footer was not a problem, a footer element and a div to get the company name and a border before the form. and of couse a red backround for the footer
+
+i have done the page and will do the products, a sub-page by clicking the button, it was not a problem adding a button with a onclick which put you on the sub-page. 
+
+btw in the header instad of the icon i need to add thati just have button which says login. i noticed i need a border between the steps 
+
+worked on the main page on the css just some px in difference, on the product page i added the maps picture and the text with the section i added for that. 
+
+i also added the footer to the sub page 
+
+i worked on the css for the product page so it looked close to the figma picture 
