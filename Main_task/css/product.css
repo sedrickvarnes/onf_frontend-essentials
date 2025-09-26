@@ -2,7 +2,6 @@ body {
     font-family: Arial, sans-serif;
     color: #222;
     margin: 0;
-    margin-left: 5px;
     background-color: #F7F2DE;
 }
 header {
@@ -57,4 +56,72 @@ header h1 {
     height: 30vw;
     border-radius: 10px;
     justify-content: center;
+}
+
+.partner_farm {
+    border-top: grey solid 2px;
+
+    display: flex;
+    flex-direction: row;
+    height: 550px;
+    width: 100%;
+    margin: 0 20px ;
+    justify-content: center;
+    align-items: center;
+}
+
+.left {
+    margin: auto;
+    width: 25%;
+    font-size: 32px;
+    
+}
+.right {
+    margin: auto;
+    max-width: 75%;
+}
+
+#map_img {
+    max-width: 600px;
+    height: 400px;
+    justify-content: center;
+}
+
+#selection_break {
+    color: white;
+    width:1px;   
+    height: 100%;         
+    background:#333;
+    margin: 0;   
+} 
+
+
+footer {
+    background-color: #DC4131;
+    text-align: center;
+    padding: 20px;
+    max-width: 100%;
+    text-align: left;
+    color: white;
+}
+
+footer h2 {
+    font-size: 36px;
+    margin: 0;
+    padding-bottom: 20px;
+    border-bottom: white solid 1px;
+}
+footer div h3{
+    padding-top: 15px;
+}
+footer form input {
+    margin-bottom: 10px;
+    border-radius: 4px;
+    width: 25%;
+    height: 30px;
+    border: none;
+}
+
+footer p {
+    width: 25%;
 }
