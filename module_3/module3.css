@@ -29,7 +29,7 @@ ul{
   text-align: center;
 }
 
-.main {
+body {
   text-align: center;
 }
 
@@ -49,11 +49,14 @@ h4{
 #nav_div{
     border-style: dashed;
     padding: 15px 5px;
-    color: green;
     margin-top: 3em;
    
 }
 form:hover {
     color: green;
+}
+
+footer:hover {
+    color: orange
 }
 
