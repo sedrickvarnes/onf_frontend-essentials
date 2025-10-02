@@ -54,8 +54,8 @@ header h1 {
 
 .produce{
     margin: 0;
-    width: 30vw;
-    height: 30vw;
+    width: 27vw;
+    height: 27vw;
     border-radius: 10px;
     justify-content: center;
 }
@@ -74,17 +74,18 @@ header h1 {
 
 .left {
     margin: auto;
-    width: 25%;
-    font-size: 32px;
+    max-width: 30%;
+    text-align: center;
+    font-size: 24px;
     
 }
 .right {
     margin: auto;
-    max-width: 75%;
+    max-width: 70%;
 }
 
 #map_img {
-    max-width: 600px;
+    width: 600px;
     height: 400px;
     justify-content: center;
 }
