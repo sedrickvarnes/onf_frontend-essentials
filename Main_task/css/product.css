@@ -38,12 +38,14 @@ header h1 {
 #title_text {
     width: 20%;
     margin-left: 2.5%;
+    padding-bottom: 30px;
 }
 
 #produce_container {
     margin-left: 15px;
     display: grid;
     grid-template-columns: auto auto auto;
+    height: 1400px;
 }
 
 #produce_container div{
@@ -99,7 +101,8 @@ header h1 {
 footer {
     background-color: #DC4131;
     text-align: center;
-    padding: 20px;
+    padding-left: 20px;
+    padding-top: 20px;
     max-width: 100%;
     text-align: left;
     color: white;
@@ -124,4 +127,33 @@ footer form input {
 
 footer p {
     width: 25%;
+}
+
+.name_and_price {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 30px;
+}
+
+.weight {
+    margin-top: 0;
+    color: gray;
+    font-size: 16px;
+    margin: 0 30px;
+    text-align: left;
+}
+
+#menu_button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    display: inline-block;
+    padding: 10px;
+}
+
+.icon_bar {
+    width: 15px;
+    height: 2px;
+    background-color: black;
+    margin: 6px 0;
 }
