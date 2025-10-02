@@ -76,7 +76,7 @@ margin-left: calc(50%);
 .selection_div {
     display: flex;
     flex-direction: row;
-    height: 550px;
+    height: 700px;
     max-width: 100%;
     margin: 0 20px ;
     justify-content: center;
@@ -88,6 +88,19 @@ margin-left: calc(50%);
     max-width: 50%;
     margin: auto;
     background-color: white;
+}
+
+#selection p {
+    max-width: 50%;
+    margin-left: 25%;
+}
+
+#selection h2 {
+    font-size: 38px;
+    text-align: center;
+    margin: 0;
+    padding-bottom: 20px;
+    padding: 0 10%;
 }
 
 #selection_break {
