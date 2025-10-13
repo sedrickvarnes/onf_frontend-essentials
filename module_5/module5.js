@@ -17,8 +17,7 @@ function newDuck() {
       const container = document.getElementById('newDuck');
   
       container.style.backgroundImage = `url('${json.url}')`;
-      
-    
+      container.classList.add('add-border');
     })
     .catch(err => console.error('Fikk ikke dette bildet heller :(', err, ' prøve igjen senere.'));
 }
