@@ -1,4 +1,6 @@
 
+
+
 fetch('https://api.allorigins.win/get?url=' + encodeURIComponent('https://random-d.uk/api/random'))
   .then(response => response.json())
   .then(data => {
@@ -14,21 +16,20 @@ function newDuck() {
   const loading = document.getElementById('loading');
 
   loading.style.display = 'block';
-
-  fetch('https://api.allorigins.win/get?url=' + encodeURIComponent('https://random-d.uk/api/random'))
+    
+    setTimeout(() => {
+    fetch('https://api.allorigins.win/get?url=' + encodeURIComponent('https://random-d.uk/api/random'))
     .then(response => response.json())
     .then(data => {
       const json = JSON.parse(data.contents);
       container.style.backgroundImage = `url('${json.url}')`;
       container.classList.add('add-border');
-      
-      setTimeout(() => {}, 2000); // bare for å simulere lastetid
-     
-      loading.style.display = 'none';
-      
     })
     .catch(err => console.error('Fikk ikke dette bildet heller :(', err, ' prøve igjen senere.'))
-
+    .finally(() => {
+      loading.style.display = 'none';
+    });
+    }, 2000); //2 sekunder
 }
 
 
