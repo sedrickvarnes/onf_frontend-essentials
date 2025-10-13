@@ -1,6 +1,4 @@
 
-
-
 fetch('https://api.allorigins.win/get?url=' + encodeURIComponent('https://random-d.uk/api/random'))
   .then(response => response.json())
   .then(data => {
@@ -16,9 +14,10 @@ function newDuck() {
     .then(response => response.json())
     .then(data => {
       const json = JSON.parse(data.contents);
-      const container = document.getElementById ('new_duck');
-
+      const container = document.getElementById('newDuck');
+  
       container.style.backgroundImage = `url('${json.url}')`;
+      
     
     })
     .catch(err => console.error('Fikk ikke dette bildet heller :(', err, ' prøve igjen senere.'));

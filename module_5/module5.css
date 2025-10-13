@@ -22,15 +22,18 @@ h1 {
     display: block;
 }
 
-#new_duck {
+#newDuck {
     width: 400px;
     height: 300px;
     border-radius: 12px;
-    border: 2px solid black;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     margin-left: auto;
     margin-right: auto;
     display: block;
+}
+
+.add-border {
+    border: 2px solid black
 }
