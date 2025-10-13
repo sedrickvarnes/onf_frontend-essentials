@@ -1,0 +1,36 @@
+#add_duck{
+    background-color: rgb(255, 255, 255);
+    border: 2px solid rgb(156, 194, 19);
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+h1 {
+    text-align: center;
+}
+#duck_container {
+    width: 400px;
+    height: 300px;
+    border-radius: 12px;
+    border: 2px solid black;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+#new_duck {
+    width: 400px;
+    height: 300px;
+    border-radius: 12px;
+    border: 2px solid black;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
