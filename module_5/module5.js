@@ -11,6 +11,9 @@ fetch('https://api.allorigins.win/get?url=' + encodeURIComponent('https://random
   })
   .catch(err => console.error('Fikk ikke bildet:', err, ' prøve igjen senere.'));
 
+
+
+// Henter nytt bilde når knappen trykkes
 function newDuck() {
   const container = document.getElementById('newDuck');
   const loading = document.getElementById('loading');
