@@ -1,13 +1,12 @@
 
 
-
 fetch('https://api.allorigins.win/get?url=' + encodeURIComponent('https://random-d.uk/api/random'))
   .then(response => response.json())
   .then(data => {
-    const json = JSON.parse(data.contents);
     const container = document.getElementById('duck_container');
-
+    const json = JSON.parse(data.contents);
     container.style.backgroundImage = `url('${json.url}')`;
+    container.classList.add('add-border');
   })
   .catch(err => console.error('Fikk ikke bildet:', err, ' prøve igjen senere.'));
 
