@@ -18,6 +18,8 @@ async function newDuck() {
 
   loading.style.display = 'block';
 
+  errorMessage.textContent = '';
+
   await new Promise(resolve => setTimeout(resolve, 2000)); // 2 sek
 
   try {
@@ -29,6 +31,7 @@ async function newDuck() {
     container.classList.add('add-border');
   } catch (err) {
     console.error('Fikk ikke dette bildet heller :(', err, 'prøve igjen senere.');
+    errorMessage.textContent = 'Kunne ikke laste bildet. Prøv igjen senere.';
   } finally {
     loading.style.display = 'none';
   }
@@ -36,3 +39,6 @@ async function newDuck() {
 
 
 startDuck();
+
+
+const errorMessage = document.getElementById('error-message');
