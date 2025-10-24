@@ -1,3 +1,6 @@
+
+const errorMessage = document.getElementById('error-message');
+
 async function startDuck() {
   try {
     const response = await fetch('https://api.allorigins.win/get?url=' + encodeURIComponent('https://random-d.uk/api/random'));
@@ -39,6 +42,3 @@ async function newDuck() {
 
 
 startDuck();
-
-
-const errorMessage = document.getElementById('error-message');
