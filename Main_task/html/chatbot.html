@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Chat bot</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Frank+Ruhl+Libre:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/chatbot.css">
+</head>
+<header>
+    <button id="menu_button" onclick="menu()">
+        <div class="icon_bar"></div>
+        <div class="icon_bar"></div>
+        <div class="icon_bar"></div>
+    </button>
+
+    <h1>FRAM</h1>
+    <button id="login_btn"><i class="fa-solid fa-user"></i> Login</button>
+</header>
+<body>
+
+    <div id="chatbot_container">
+        
+        <div class="chat-container">
+        <div class="chat-messages" id="chatMessages">
+        
+        <div class="message_bot">
+            <div id="fram_name">FRAM: </div>
+            <div>What can I help you with today?</div>
+        </div>
+        </div>
+
+        <div class="input-area">
+        <input id="userInput" type="text" placeholder="Type your message..." />
+        <button class="send-btn" id="sendBtn" onclick="displaymessage()">↑</button>
+        </div>
+
+        </div>
+    
+        <script>
+            function displaymessage() {
+                var input = document.getElementById("userInput").value;
+                var chatMessages = document.getElementById("chatMessages");
+
+                console.log(input);
+                if (input !== "") {
+                    chatMessages.innerHTML += "<p>" + input + "</p>" ;
+                }
+                else {
+                    alert("Please enter a message.");
+                }
+
+                document.getElementById("userInput").value = "";
+        
+            }
+
+            
+        </script>
+</body>
+</html>
