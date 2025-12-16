@@ -1,29 +1,37 @@
 i wrote a journal in a different place i was looking for it, i think it was sometinhg i turned in, but here is one in the project
 
 26.9.25
-still struggeling to the the font to work for the page, the selectiob breaker i was struggeling a bit becasue the line was from the top that is good and stopped 20 px from the bottom 
+still struggeling to the the font to work for the page, the selectiob breaker i was struggeling a bit becasue the line was from the top that is good and stopped 20 px from the bottom
 it was a padding i had i diddent remember, selection was new to me but not a problem considering it is a selection of the div's, i have not found out yet how the text on the
-products will be, in figma the product and the price is on one line, i now have it on 2 lines 
+products will be, in figma the product and the price is on one line, i now have it on 2 lines
 
 the footer was not a problem, a footer element and a div to get the company name and a border before the form. and of couse a red backround for the footer
 
-i have done the page and will do the products, a sub-page by clicking the button, it was not a problem adding a button with a onclick which put you on the sub-page. 
+i have done the page and will do the products, a sub-page by clicking the button, it was not a problem adding a button with a onclick which put you on the sub-page.
 
-btw in the header instad of the icon i need to add thati just have button which says login. i noticed i need a border between the steps 
+btw in the header instad of the icon i need to add thati just have button which says login. i noticed i need a border between the steps
 
-worked on the main page on the css just some px in difference, on the product page i added the maps picture and the text with the section i added for that. 
+worked on the main page on the css just some px in difference, on the product page i added the maps picture and the text with the section i added for that.
 
-i also added the footer to the sub page 
+i also added the footer to the sub page
 
-i worked on the css for the product page so it looked close to the figma picture 
+i worked on the css for the product page so it looked close to the figma picture
 
 02.10.25.
 
-added a folder for the html and added the page and product to the folder, i also changed the href and how they talked to eachother. I added a hamburger menu icon on the main page, and changed the css to to product on the left, and price per weight to the right i also made the popular produce highter for a more square picture. added some css to the selection h2 and p, so i was aligned center 
+added a folder for the html and added the page and product to the folder, i also changed the href and how they talked to eachother. I added a hamburger menu icon on the main page, and changed the css to to product on the left, and price per weight to the right i also made the popular produce highter for a more square picture. added some css to the selection h2 and p, so i was aligned center
 
-fixed the text on the product page as well same ad the main page, did some text align on the product page 
+fixed the text on the product page as well same ad the main page, did some text align on the product page
 
-24.10.25 - added the correct font to the whole document both for page and product. added a anchor for the logo text whitch put you from the product page to the main page. the how it works text transformet it to uppercase 
+24.10.25 - added the correct font to the whole document both for page and product. added a anchor for the logo text whitch put you from the product page to the main page. the how it works text transformet it to uppercase
 chaged the height on the selection breaker to 100%
-changed how the stepper displayed text from lines to columns 
-changed font size 
+changed how the stepper displayed text from lines to columns
+changed font size
+
+13.11.25 - added clicking on go to chat botton on main page going to chat and on new page added background, box, header still the same. when you write the text goes on a normal chatbox you can see it. not added the Ai yet
+
+29.11.25 - just fixed some hovering effects
+
+13.12.25 - fixed so it will work on mobile and smaller devicses
+
+16.12.25 - delivering examen file to qybele - you can click logo on top and you are directed to main page
